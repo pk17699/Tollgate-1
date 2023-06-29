@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="./styles.css">
+    <!-- Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <div class="add">
+        <h1>Todo App</h1>
+        <form id="form" autocomplete="off">
+            <label for="addTask">add task :</label>
+            <input id="text" type="text">
+            <button type="submit" class="btn btn-primary btn-sm">Add</button>
+            <div id="msg"></div>
+        </form>
+        <br>
+        <div id="todos">
+            <!-- <ol class="post">
+                <li><p>this is a demo todo &nbsp; &nbsp;</p></li>
+                <button class="btn btn-primary btn-sm">delete</button>
+            </ol> -->
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body> 
+</html>

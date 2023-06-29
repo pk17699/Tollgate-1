@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+}
+header {
+    text-align: center;
+}
+
+form {
+    margin: 0;
+}
+
+input {
+    padding: 20px;
+    border: solid 1px rgba(220, 20, 20, 0.52);
+}
+
+li {
+    list-style: none;
+    border: solid 1px rgba(220, 20, 20, 0.52);
+    margin: 3px 0;
+    color: gray;
+    transition: margin 0.5s, background-color 2s;
+}
+
+.list-elem-head {
+    float: left;
+    margin: 20px;
+}
+
+.list-elem-body {
+    margin-left: 50px;
+    padding: 20px 20px 20px 20px;
+    border-left: solid 1px rgba(220, 20, 20, 0.52);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li > span.text {
+    padding-right: 20px;
+}
+
+span.delete {
+    float: right;
+    border: solid 1px crimson;
+    border-radius: 50%;
+    color: crimson;
+    cursor: pointer;
+}
